@@ -49,7 +49,7 @@ Before running the game, ensure you have Python installed (version 3.8 or higher
 ## 📦 Installation & Setup
 
 ```bash
-# Clone the Flappy Bird repository from GitHub to your local machine
+# Clone the 2048 repository from GitHub to your local machine
 git clone https://github.com/filipebteixeira98/2048
 
 # Move into the project's root directory
@@ -64,7 +64,7 @@ source .venv/bin/activate
 # Install all development and project dependencies listed in the requirements file
 pip install -r requirements-dev.txt
 
-# Run the main script to start the Flappy Bird game
+# Run the main script to start the 2048 game
 python main.py
 ```
 
