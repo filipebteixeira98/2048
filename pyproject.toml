@@ -1,0 +1,20 @@
+[tool.ruff]
+# The maximum line length (88 is the Black standard, 100 is also common)
+line-length = 88
+
+# Target the specific Python version you are using
+target-version = "py311"
+
+[tool.ruff.lint]
+# "I" enables `isort` so Ruff automatically sorts your imports
+select = ["E", "F", "I"] 
+
+[tool.ruff.format]
+# Prefer double quotes (like Black) or change to "single" if you prefer
+quote-style = "double"
+
+# Indent using spaces rather than tabs
+indent-style = "space"
+
+# Automatically format Python code blocks inside markdown files or docstrings
+docstring-code-format = true
